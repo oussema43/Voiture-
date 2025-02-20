@@ -37,7 +37,6 @@ def ajouter_voiture(marque, modele, annee):
     return voitures
 
 def afficher_voitures(voitures):
-    print("Voitures disponibles: ")
     for id, voiture in voitures.items():
         if voiture["disponible"]:
             print(f"ID: {id}, Marque: {voiture['marque']}, Modèle: {voiture['modele']}, Année: {voiture['annee']}, Statut: Disponible")
