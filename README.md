@@ -6,3 +6,5 @@ L’application doit permettre de :
     Gérer une flotte de voitures (ajout, suppression, affichage).
     Gérer les locations (louer et retourner une voiture).
     Afficher les voitures disponibles et louées.
+
+must pip install PyQt6
